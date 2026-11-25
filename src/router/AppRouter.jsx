@@ -10,7 +10,7 @@ import Inicio from "../pages/Inicio";
 import Lineup from "../pages/Lineup";
 import Mapa from "../pages/Mapa";
 
-const router = createBrowserRouter([
+export const router = createBrowserRouter([
   {
     path: '/',
     element: <Inicio />,
